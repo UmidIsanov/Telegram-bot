@@ -43,27 +43,7 @@ def search(message):
              bot.register_next_step_handler(msg1, mes)
 bot.polling(none_stop=True)
 
-# import wikipedia
-# import telebot
-# 
-# bot = telebot.TeleBot('5246690792:AAElxHAbqH3yJK5nHWAd3YtaIFockodNpy8')
-# 
-# @bot.message_handler(commands=['start'])
-# def start(message):
-    # sending_mess = f"<b>Привет{message.from_user.first_name}!</b>\n что то то то то"
-    # bot.send_message(message.chat.id, sending_mess, parse_mode='html')
-# 
-# @bot.message_handler(content_types=['text'])
-# def mess(message):
-    # try:
-        # final_message = ''
-        # word=message.text.strip().lower()
-        # final_message = wikipedia.summary(word)
-        # bot.send_message(message.chat.id, final_message, parse_mode='html')
-    # except wikipedia.exceptions.PageError:
-        # bot.send_message(message.chat.id, 'инфа не найдена ')
-    # 
-# bot.polling(none_stop=True)
+
 # 
 # 
 # 
