@@ -3,7 +3,7 @@ import telebot
 from telebot import types
 
 wikipedia.set_lang('en')
-bot = telebot.TeleBot('5246690792:AAElxHAbqH3yJK5nHWAd3YtaIFockodNpy8')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=['start'])
 def start(message):
